@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa8bf71f8a6e40478ae9728604f3d1e, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  speed: 3
+  speedRun: 4
+  teclaAbajo: 115
+  teclaArriba: 119
+  inventoryKey: 9
+  teclaIzquierda: 97
+  teclaDerecha: 100
+  teclaCorrer: 304
+  teclaPegar: 303
+  teclaDisparar: 257
+  teclaApuntar: 256
+  teclaInteractuar: 32
+  teclaSacarMision: 13
+  bulletsPerSecond: 2
+  distanciaDisparo: 30
+  modHeadShoot: 2
+  interactRadius: 0.3
+  raycastLength: 0
