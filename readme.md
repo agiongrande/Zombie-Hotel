@@ -21,8 +21,8 @@ El juego permite recorrer el hotel y cumplir una serie de misiones al cabo de tr
 
 ### Desarrollado con las siguientes herramientas:
 
-Unity
-Visual Studio Code - C#
+- Unity
+- Visual Studio Code - C#
 
 ### Aspectos desarrollados
 
