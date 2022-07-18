@@ -43,6 +43,3 @@ El juego permite recorrer el hotel y cumplir una serie de misiones al cabo de tr
 - Utilización del sistema de partículas
 - Proceso de pulido de escenas
 
-![ZOMBIE HOTEL](https://agiongrande.github.io/portfolio/img/zombie.gif)
-![ZOMBIE HOTEL](https://agiongrande.github.io/Zombie-Hotel/zombie.gif)
-
