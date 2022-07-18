@@ -29,6 +29,9 @@ El juego permite recorrer el hotel y cumplir una serie de misiones al cabo de tr
 - Desarrollo de 3 escenas jugables y escena de menú principal
 - Creación de assets sencillos e importación de assets complejos
 - Útilización de múltiples cámaras y componente Cinemachine
+- Programación de lógica de movimiento del personaje y enemigos
+- Desarrollo de sistema de misiones
+- Utilización de Raycast
 - Configuración de Colisiones
 - Utilización de físicas y rigidbody
 - Uso de distintos tipos de luces
@@ -40,9 +43,6 @@ El juego permite recorrer el hotel y cumplir una serie de misiones al cabo de tr
 - Utilización del sistema de partículas
 - Proceso de pulido de escenas
 
-
-### Juego en funcionamiento
-
-A continuación se muestran algunos momentos del juego:
-
 ![ZOMBIE HOTEL](https://agiongrande.github.io/portfolio/img/zombie.gif)
+![ZOMBIE HOTEL](https://agiongrande.github.io/Zombie-Hotel/zombie.gif)
+
