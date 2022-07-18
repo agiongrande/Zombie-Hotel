@@ -37,4 +37,4 @@ Visual Studio Code - C#
 
 A continuación se muestran algunos momentos del juego:
 
-!(https://agiongrande.github.io/deautor-react/deautor/public/proceso.gif)
+![ZOMBIE HOTEL](https://agiongrande.github.io/portfolio/img/zombie.gif))
