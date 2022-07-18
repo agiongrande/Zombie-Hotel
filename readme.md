@@ -1,4 +1,4 @@
-# Curso React JS - CoderHouse
+# Zombie Hotel
 
 ## Proyecto desarrollado por: Alejandro Giongrande
 
@@ -8,58 +8,33 @@
 
 ### Información del Proyecto
 
-DeAutor es un e-commerce desarrollado como trabajo integrador del curso de React JS de CoderHouse. Se trata de un e-commerce de bebidas alcohólicas que cuenta con tres categorías: vodkas, licores y aperitivos.
+Zombie Hotel es un prototipo de juego que fue desarrollado en Unity y C#.
 
-El sitio permite generar una tienda, donde es posible filtrar los productos por categorías, y agregar productos al carrito.
-
-Una vez que desea finalizar la compra, se solicitan datos del consumidor y se guarda la orden de compra en la base de datos de Firebase, borrando el contenido del carrito.
+El juego permite recorrer el hotel y cumplir una serie de misiones al cabo de tres escenarios diferentes, teniendo una duración aproximada de 20 minutos.
 
 ### Desarrollado con las siguientes herramientas:
 
-Visual Studio Code, utilizando React.
+Unity
+Visual Studio Code - C#
 
-### Variables de entorno
+### Aspectos desarrollados
 
-Las variables de entorno que deben configurarse son las siguientes:
+- Creación de assets sencillos e importación de assets complejos
+- Útilización de múltiples cámaras y componente Cinemachine
+- Configuración de Colisiones
+- Utilización de físicas y rigidbody
+- Uso de distintos tipos de luces
+- Configuración de animaciones mediante Animator
+- Desarrollo de interfaz y elementos de UI
+- Uso de Scriptable Objects
+- Programación del sistema de inventario
+- Uso de Herencia
+- Utilización del sistema de partículas
+- Proceso de pulido de escenas
 
-- REACT_APP_ApiKey
-- REACT_APP_AuthDomain
-- REACT_APP_projectId
-- REACT_APP_StorageBucket
-- REACT_APP_MessagingSenderId
-- REACT_APP_AppId
 
-### Tablas de Firebase
+### Juego en funcionamiento
 
-Se deben crear dos tablas de Firebase. Una de ellas para las categorías y otras para los productos. Las tablas deben tener la siguiente estructura:
+A continuación se muestran algunos momentos del juego:
 
-##### Colección: categorías
-- ID
-- Nombre: nombre del producto
-
-##### Colección: productos
-- ID (se recomienda de generación automática)
-- Categoria: categoría del producto. Ejemplo: vodka, licor, etc.
-- Contenido: tamaño de la botella, en ml. Por ejemplo: 750, 1000.
-- Marca: marca de la bebida.
-- Nombre: nombre del producto.
-- Precio: precio del producto en pesos argentinos. Por ejemplo: 500, 1000.
-- Stock: stock disponible
-- img: imagen del producto, en la carpeta img, sin la extensión.
-
-Adicionalmente, al finalizar la compra se crea la colección "ordenes". Esta tabla se crea de manera automática e incluye la información del comprador (nombre, teléfono, dirección, comentarios), los datos correspondientes a cada uno de los productos adquiridos, el precio total y la fecha.
-
-### Rutas de la aplicación
-
-Las rutas de la aplicación son las siguientes:
-
-- / => directorio raíz
-- /category/:categoryName => Filtra por los productos que son de categoría categoryName
-- /detail/:productID => Filtra el producto cuyo ID es productID
-- /carrito/ => visualiza el carrito
-
-### Sitio en funcionamiento
-
-A continuación se muestra el sitio en funcionamiento:
-
-![Proceso de compra](https://agiongrande.github.io/deautor-react/deautor/public/proceso.gif)
+!(https://agiongrande.github.io/deautor-react/deautor/public/proceso.gif)
